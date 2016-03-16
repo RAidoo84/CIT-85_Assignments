@@ -1,0 +1,19 @@
+div {
+    border: 4px solid #003b6f;
+}
+
+.Outside {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.Inside {
+    width: 600px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 8px;
+}
+
+.BSBB {
+    box-sizing: border-box;
+}

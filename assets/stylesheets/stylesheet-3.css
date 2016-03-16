@@ -1,0 +1,25 @@
+#navmenu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	overflow: hidden;
+	background-color: green;
+}
+
+li {
+	float: left;
+    border-right: 2px solid black;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: yellow;
+}
