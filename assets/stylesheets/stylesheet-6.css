@@ -1,0 +1,40 @@
+#navmenu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	overflow: hidden;
+	background-color: #003b6f;
+    width: 120px;
+    height: auto;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: yellow;
+}
+
+#content {
+    display: inline-block;
+}
+
+.DoctorWho {
+    width: 300px;
+    height: 200px;
+}
+
+table, tr, td {
+    border: 1px dashed black;
+    border-collapse: collapse;
+    text-align: center;
+}
