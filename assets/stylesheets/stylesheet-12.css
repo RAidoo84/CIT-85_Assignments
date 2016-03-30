@@ -1,0 +1,43 @@
+div {
+    border: 2px solid #003b6f;
+    width: 90%;
+    float: right;
+}
+
+.DoctorWho {
+    float: right;
+    margin: 10px 10px 10px 10px;
+    border: 2px double black;
+    width: 400px;
+    height: 300px;
+}
+
+#navmenu {
+    float: left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	overflow: hidden;
+	background-color: #003b6f;
+    width: 120px;
+    height: auto;
+    border: 2px solid black;
+    vertical-align: top;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: yellow;
+}
