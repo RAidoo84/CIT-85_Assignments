@@ -1,0 +1,42 @@
+body {
+	width: 80%;
+	margin: 0 auto;
+	border: 1px dashed black;
+	text-align: center;	
+}
+
+#DivOne {
+	height: 800px;
+	width: 800px;
+	border: 2px solid red;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+}
+
+#DivTwo {
+	height: 600px;
+	width: 600px;
+	border: 2px solid white;
+	background-color: blue;
+	display: inline-block;
+	text-align: center;
+}
+
+#DivThree {
+	height: 400px;
+	width: 400px;
+	border: 2px solid blue;
+	background-color: red;
+	display: inline-block;
+	text-align: center;
+}
+
+#DivFour {
+	height: 200px;
+	width: 200px;
+	border: 2px solid red;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+}
