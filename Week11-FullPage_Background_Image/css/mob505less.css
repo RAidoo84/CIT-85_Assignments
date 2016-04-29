@@ -1,0 +1,24 @@
+.mobnavbottom {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: black;
+}
+
+.mobnavbottoma {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.mobnavbottoma:hover {
+    background: royalblue;
+}
+
+.mobnavbottomitemlast {
+    border-bottom: none;
+}

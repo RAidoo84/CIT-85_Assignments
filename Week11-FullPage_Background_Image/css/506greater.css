@@ -1,0 +1,28 @@
+body {
+    background-image: url("../TARDIS.jpg")
+}
+
+.topnavright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.topnavrightitem {
+    margin-left: 25px;
+}
+
+.topnavrightitem:hover {
+    color: silver;
+}
+
+.mobnavbottom {
+    display: none;
+}

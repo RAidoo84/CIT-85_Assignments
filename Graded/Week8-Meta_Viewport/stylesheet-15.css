@@ -1,0 +1,23 @@
+body {
+	font-family: cursive;
+		background-color: #19cfdc;
+}
+#Main {
+	font: 26px;
+	border: 2px groove black;
+	color: #00008b;
+	background-color: #9bf4cd;
+	text-align: center;
+}
+
+#Secondary {
+	text-align: left;
+	font: 14px;
+}
+
+.Sea {
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding: 10px;
+}
