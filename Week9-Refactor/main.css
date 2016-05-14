@@ -1,32 +1,27 @@
-.container {
-	display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-}
-	  
-.c1, .c2, .c3, .c4 {
-    width: 100%;
+#NoIDid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-@media (min-width: 600px) {
-    .c1 {
-        width: 25%;
-		color: red;
-    }
-
-   .c4 {
-        width: 75%;
-		color: black;
-    }
-
+.NotGet {
+  color: #800080;
+  background-color: #00b3b3;
+  padding: 10px;
+  width: 100%;
 }
 
-@media (min-width: 800px) {
-    .container {
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.MyMoneys {
+	color: #00b3b3;
+	background-color: #b30000;
+	padding: 10px;
+	width: 100%
 }
-      
+
+.Worth{
+  color:  #b30000;
+  background-color: #b35a00;
+  padding: 10px;
+  width: 100%
+}

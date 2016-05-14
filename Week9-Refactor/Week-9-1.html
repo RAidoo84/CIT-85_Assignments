@@ -1,49 +1,67 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Week 9 - Refactor</title>
-    <link rel="stylesheet" href="main.css" />
-</head>
-
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" media="(min-width: 500px) and (max-width: 799px)" href="media500.css">
+	<link rel="stylesheet" media="(min-width: 800px)" href="media800.css">
+      
+    <title>Responsive Web Design Pattern: Tiny Tweaks</title>
+  </head>
+  
   <body>
-    <div class="container" role="main">
-      <div class="c1"></div>
-      <div class="c4">
-        <div class="c2"></div>
-        <div class="c3"></div>
-      </div>
+    <div id="NoIDid">
+      <div class="NotGet">
+        <p>Fourscore and seven years ago our fathers brought forth on this continent a new nation,
+          conceived in liberty and dedicated to the proposition that all men are created equal. Now
+          we are engaged in a great civil war, testing whether that nation or any nation so conceived
+          and so dedicated can long endure. We are met on a great battlefield of that war. We have come
+          to dedicate a portion of that field as a final resting-place for those who here gave their lives
+          that that nation might live. It is altogether fitting and proper that we should do this. But in
+          a larger sense, we cannot dedicate, we cannot consecrate, we cannot hallow this ground. The brave
+          men, living and dead who struggled here have consecrated it far above our poor power to add or
+          detract. The world will little note nor long remember what we say here, but it can never forget
+          what they did here. It is for us the living rather to be dedicated here to the unfinished work
+          which they who fought here have thus far so nobly advanced. It is rather for us to be here
+          dedicated to the great task remaining before us--that from these honored dead we take increased
+          devotion to that cause for which they gave the last full measure of devotion--that we here
+          highly resolve that these dead shall not have died in vain, that this nation under God shall
+          have a new birth of freedom, and that government of the people, by the people, for the people
+          shall not perish from the earth.</p>
+	  </div>
+	  
+	  <div class="MyMoneys">
+		<p>Fans, for the past two weeks you have been reading about a bad break I got. Yet today I consider
+          myself the luckiest man on the face of the earth. I have been in ballparks for seventeen years
+          and have never received anything but kindness and encouragement from you fans.
+          Look at these grand men. Which of you wouldn't consider it the highlight of his career to
+          associate with them for even one day? Sure, I'm lucky. Who wouldn't consider it an honor to have
+          known Jacob Ruppert - also the builder of baseball's greatest empire, Ed Barrow - to have spent
+          the next nine years with that wonderful little fellow Miller Huggins - then to have spent the
+          next nine years with that outstanding leader, that smart student of psychology - the best manager
+          in baseball today, Joe McCarthy! Sure, I'm lucky. When the New York Giants, a team you would
+          give your right arm to beat, and vice versa, sends you a gift, that's something! When everybody
+          down to the groundskeepers and those boys in white coats remember you with trophies, that's
+          something. When you have a wonderful mother-in-law who takes sides with you in squabbles against
+          her own daughter, that's something. When you have a father and mother who work all their lives
+          so that you can have an education and build your body, it's a blessing! When you have a wife who
+          has been a tower of strength and shown more courage than you dreamed existed, that's the finest I
+          know. So I close in saying that I might have had a tough break - but I have an awful lot to live
+          for! </p>
+	  </div>
+	  
+	  <div class="Worth">
+		<p>I could not have blamed you for being the first to lose heart if I, your commander, had not
+		shared in your exhausting marches and your perilous campaigns; it would have been natural enough
+		if you had done all the work merely for others to reap the reward. But it is not so. You and I,
+		gentlemen, have shared the labour and shared the danger, and the rewards are for us all. The
+		conquered territory belongs to you; from your ranks the governors of it are chosen; already the
+		greater part of its treasure passes into your hands, and when all Asia is overrun, then indeed I
+		will go further than the mere satisfaction of our ambitions: the utmost hopes of riches or power
+		which each one of you cherishes will be far surpassed, and whoever wishes to return home will be
+		allowed to go, either with me or without me. I will make those who stay the envy of those who
+		return.</p>
+	  </div>
     </div>
-    
-        <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='//www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-24532603-1');ga('send','pageview');
-
-    var isCompleted = {};
-    function sampleCompleted(sampleName){
-      if (ga && !isCompleted.hasOwnProperty(sampleName)) {
-        ga('send', 'event', 'WebCentralSample', sampleName, 'completed'); 
-        isCompleted[sampleName] = true;
-      }
-    }
-</script>    <script type="text/javascript">
-      function init() {
-        window.matchMedia("(min-width: 800px)").addListener(hitMQ);
-        window.matchMedia("(min-width: 600px)").addListener(hitMQ);
-      }
-
-      function hitMQ(evt) {
-        sampleCompleted("RWDPatterns-LayoutShifter");
-      }
-
-      init();
-
-    </script>
-        
+ 
   </body>
 </html>
